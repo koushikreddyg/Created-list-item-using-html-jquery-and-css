@@ -1,137 +1,83 @@
-body{
-    border: 6px solid #f2f2f2;
-    padding: 2;
-    margin: 0 0 0 0;
-    background-color: #f2f2f2;
+body {
     max-width: auto;
-    font-size: 1.2em;
+    margin: 0 auto;
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
-.heading{
-    
+.row {
+    background: #e2e2e2;
+    padding: 8px 8px 32px;
 }
 
-.taskHeading{
-    margin: -7px;
-    border-top: 6px solid #d9d9d9;
-    border-left: 6px solid #d9d9d9;
-    border-right: 6px solid #d9d9d9;
-    display: flex;
-    background-color: #f2f2f2;
-    padding: 35px;
-    flex-direction: column;
-    padding-left: 40px; 
-    
+.header {
+    padding: 32px;
+    background-color: #f0f0f0;
 }
 
-.taskTracker{
-    margin:0;
-    font-size: 35px;
-    font-weight: bold;
-    font-family: "calibri";
-    
-}
-.version{
+.header > h1 {
     margin: 0;
-    font-size: 20px;
-    color: #8c8c8c;
-    font-family: "calibri";
+    font-size: 2em;
 }
 
-.formContainer{
-    
-    background-color: white;
-    padding-top: 13;
-    padding-left: 45;
-    height: 400;
-    width: 1900;
-
+.version {
+    color: #888;
 }
 
-
-.labelText{
-    font-size: 14px;
-    font-weight: 800;
-    font-family: "calibri";
+.column {
+    width: 45%;
+    display: inline-block;
+    vertical-align: top;
+    background-color: #fff;
+    height: 400px;
+    padding: 24px;
 }
 
-input {
-    width: 70%;
-    background-color: #f2f2f2 ;
-    padding: 9px 20px;
-    margin: 2px 0;
-    border: 0px solid black;
+.column > h3 {
+    margin: 0 0 24px;
+}
+
+.input-container {
+    margin: 24px 0;
+}
+
+.input-container>label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.input-container>input {
+    width: 95%;
+    height: 35px;
     border-radius: 4px;
-    margin-bottom: 20px;
-}
-button{
-    margin-top: 10px;
-    width: 100;
-    height: 40;
-    font-size: 15px;
-    border-radius: 5px;
-    font-size: 17px;
-    font-family: "Times New Roman";
-    background-color: #404040;
-    color: white;
-    border: none
+    border: 1px solid #d3d3d3;
+    background-color: #ececec;
+    padding: 0 8px;
 }
 
-.container{
-    margin-top: 7px;
-    display: flex;
-    margin-right: 10px;
-    background-color: #f2f2f2
-    
-}
-
-
-.taskStyle{
-    margin-top:0px;
-    padding:0;
-    font-size: 10px;
-    padding-left: 10px;
-    padding: 10px;
-    background-color: #f2f2f2;
-    font-weight: 600
-}
-
-
-.right{
-    float: right;
-    padding-right: 5px;
-    font-size: 1.5em;
-    font-family: "calibri";
-}
-
-.formContainerDisplay{
-    margin-left: 20px;
-    background-color: white;
-    padding-top: 13;
-    padding-left: 40;
-    margin-right: -12px;
-    height: 380;
-    width: 2000;
-    overflow: auto;
-    padding-bottom: 20px
-}
-.borderDisplay{
-    margin-right: 40px;
-    border: 3px solid #f2f2f2;
-    border-radius: 2px;
-    padding: 3px;
-    
-}
-
-.dateStyle{
+.btn-submit {
+    color: #fff;
+    padding: 12px 16px;
+    border: none;
+    background-color: #434343;
+    border-radius: 4px;
+    cursor: pointer;
     font-size: 1em;
-    color: #666666
+}
+.task-container{
+    overflow: auto;
+    height: 380px;
 }
 
-.indivisualTaskStyle{
-    font-size: 1.8em;
+.task-container > table{
+    width: 100%;
+    border: 4px solid #ececec;
+    border-radius: 4px;
+    padding: 0 4px;
 }
 
-#Error{
-    color: red;
+.task-container > table > tbody > tr:nth-child(even) {background: #CCC}
+
+.task-container > table > tbody > tr > td{
+    padding: 12px;
 }
