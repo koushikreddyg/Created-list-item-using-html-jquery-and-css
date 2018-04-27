@@ -38,7 +38,7 @@ $(document).ready(function(){
                jQuery.each( array, function( i, val ) {
             
         if(i%2===1){
-            html=html+ `<div class="taskStyle" style="background-color: grey">
+            html=html+ `<div class="taskStyle" style="background-color: #f2f2f2">
                 <span class="indivisualTaskStyle">${val.name}</span>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
                 <span class="dateStyle">${val.date}</span>
                 <span class="right">${val.assigned}</span>
