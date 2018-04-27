@@ -1,15 +1,22 @@
 body{
-    border: 6px solid lightgrey;
+    border: 6px solid #f2f2f2;
     padding: 2;
-    font-family: "calibri";
-    background-color: gainsboro;
     margin: 0 0 0 0;
+    background-color: #f2f2f2
     
 }
+
+.heading{
+    
+}
+
 .taskHeading{
     margin: -3;
+    border-top: 6px solid #d9d9d9;
+    border-left: 6px solid #d9d9d9;
+    border-right: 6px solid #d9d9d9;
     display: flex;
-    background-color: lightgrey;
+    background-color: #f2f2f2;
     padding: 35px;
     flex-direction: column;
     padding-left: 40px; 
@@ -20,35 +27,36 @@ body{
     margin:0;
     font-size: 35px;
     font-weight: bold;
-    
+    font-family: "calibri";
     
 }
 .version{
     margin: 0;
     font-size: 20px;
-    color: black 
+    color: #8c8c8c;
+    font-family: "calibri";
 }
 
 .formContainer{
-    margin-top: 15px;
-    margin-left: 10px;
+    
     background-color: white;
     padding-top: 13;
-    padding-left: 40;
+    padding-left: 45;
     height: 400;
-    width: 1980;
-    margin-right: 10px; 
+    width: 1900;
+
 }
 
 
 .labelText{
-    font-size: 15px;
-    
+    font-size: 14px;
+    font-weight: 800;
+    font-family: "calibri";
 }
 
 input {
     width: 70%;
-    background-color: gainsboro;
+    background-color: #f2f2f2 ;
     padding: 9px 20px;
     margin: 2px 0;
     border: 0px solid black;
@@ -61,14 +69,16 @@ button{
     height: 40;
     font-size: 15px;
     border-radius: 5px;
-    background-color: dimgray;
+    background-color: #404040;
     color: white;
     border: none
 }
 
 .container{
+    margin-top: 4px;
     display: flex;
-    margin-right: 10px
+    margin-right: 10px;
+    background-color: #f2f2f2
     
 }
 
@@ -79,7 +89,8 @@ button{
     font-size: 10px;
     padding-left: 10px;
     padding: 10px;
-    background-color: antiquewhite
+    background-color: #f2f2f2;
+    font-weight: 600
 }
 
 
@@ -87,23 +98,24 @@ button{
     float: right;
     padding-right: 5px;
     font-size: 15px;
+    font-weight: 600;
+    font-family: "calibri";
 }
 
 .formContainerDisplay{
-    margin-top: 15px;
-    margin-left: 10px;
+    margin-left: 20px;
     background-color: white;
     padding-top: 13;
     padding-left: 40;
+    margin-right: -12px;
     height: 380;
-    width: 1980;
+    width: 2000;
     overflow: auto;
-    margin-bottom: 20px;
     padding-bottom: 20px
 }
 .borderDisplay{
     margin-right: 40px;
-    border: 3px solid darkgrey;
+    border: 3px solid #f2f2f2;
     border-radius: 2px;
     padding: 3px;
     
@@ -111,7 +123,7 @@ button{
 
 .dateStyle{
     font-size: 12px;
-    color: darkgrey
+    color: #666666
 }
 
 .indivisualTaskStyle{
